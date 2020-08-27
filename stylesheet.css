@@ -1,13 +1,27 @@
 
 .intro{
-	margin-top: 250px;
-}
-.introp{
-	font-size: 13px;
-	color: black;
-	line-height: 1.4rem;
+	margin: 250px 0 300px 0; 
 }
 
+.introp{
+	font-size: 18px;
+	color: #1e1e1e;
+	line-height: 32px;
+}
+#startchange{
+    margin-top:100px;
+}
+.abouttit{
+    font-size:30px; 
+    font-family: 'Ubuntu', sans-serif;
+    color:#999;
+}
+.por{
+    -webkit-box-shadow: 6px 12px 35px 1px rgba(0,0,0,0.19);
+    -moz-box-shadow: 6px 12px 35px 1px rgba(0,0,0,0.19);
+    box-shadow: 6px 12px 35px 1px rgba(0,0,0,0.19);
+    /* border-radius: 2rem; */
+}
 .containeru {
   position: relative;
   width: 50%;
@@ -54,6 +68,7 @@
 
 .textu {
   color: white;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -66,7 +81,7 @@
 
 
 body{
-	font-family: opensans;
+    font-family: 'Karla', sans-serif;
     opacity: 1;
     transition: 1s opacity;
 }
@@ -78,7 +93,7 @@ html {
     background-color: white;
 }
 .navbar-default{
-    background-color:transparent;!important
+    background-color:transparent!important;
     margin:0px;		
     border:none !important;
 }
@@ -97,7 +112,7 @@ html {
 	align-items: center;
 }
 .navbar-nav1{
-	margin-left: 15%; !important
+	margin-left: 15% !important;
 }
 
 .bt{
@@ -108,12 +123,15 @@ html {
 	color: #666666
 }
 .navbar-brand{
-	font-size: 16px; 
- 	padding-bottom:0px !important;
-}
+	font-size: 20px; 
+     padding-bottom:0px !important;
+     font-family: 'Ubuntu', sans-serif !important;
+    }
 .nf{
 	color:grey;
-	margin-left: 10px;
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 .workdetail{background-color: #eee;
     height: 300px;  
