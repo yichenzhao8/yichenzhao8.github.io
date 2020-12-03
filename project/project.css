@@ -41,8 +41,8 @@
 #id{
 	margin-top: 0px;
 }
-body{
-
+.funnowli li{
+	margin-bottom: 20px;
 }
 .block{
 	border:1px solid #949494;
@@ -55,12 +55,33 @@ body{
 	margin-top: .4rem;
 	line-height: 2rem;
 }
-.gap{
-	margin: 200px auto;
+.side img{
+	margin:0;
+}
+.grid {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-right: 20px;
+}
+.font{
+	margin-top: 40px;
 }
 .title{
-	margin-top: 100px;
+	padding: 100px 0 0 0;
 }
+.title h2{
+	margin: auto;
+}
+.subtitle{
+	font-size: 16px;
+	font-weight: 600;
+	font-family: serif;	 
+}
+.sub_gap p{
+	margin-bottom: 20px;
+}
+
 .detail .intro{
 	position: relative;
 	line-height: 30px;
@@ -72,6 +93,18 @@ body{
 	font-weight: 300;
 	font-size: 50px;
 	margin-bottom: 30px;
+}
+.description{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+	color: rgba(0,0,0,.4);
+}
+.view-project{
+	text-align: center;
+	color:blue;
+	text-decoration: underline;
+	margin: 100px;
 }
 h2{
 	font-weight: 300;

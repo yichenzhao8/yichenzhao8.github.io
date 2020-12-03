@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Lora:400,700,700i&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
 
 
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -19,128 +19,95 @@
 
 </head>
 
-<body>
+<body id="canvas">
 	<script>
 		document.body.className += ' fade-out';
 	</script>
 
-	<div class="container navbar-light">
+	<div class="navbar-light">
 		<nav class="navbar navbar-expand-md" id="mainnav">
-			<a class="navbar-brand h1" href="https://yichenzhao8.github.io/index.html">yichen zhao </a>
+			<a class="navbar-brand" href="https://yichenzhao8.github.io/">yichen zhao</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
 				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<ul class="nav navbar-nav ml-auto">
-					<li class="nav-item active nf"><a class="nav-link" href="https://yichenzhao8.github.io/index.html"> Work </a>
-					</li>
-					<li class="nav-item nf"><a class="nav-link" href="about.html"> About Me</a> </li>
-					<li class="nav-item nf"><a class="nav-link" href="yichenzhao-cv.pdf"> Resume </a> </li>
+					<li class="nav-item active nf"><a class="nav-link" href="https://yichenzhao8.github.io/"> Work </a> </li>
+					<li class="nav-item nf"><a class="nav-link" href="about.html"> About </a> </li>
+					<li class="nav-item nf"><a class="nav-link" href="yichenzhao-cv"> Resume </a> </li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-	<div class="container"> 
-		<div class="col-6 intro" style="font-family: 'Ubuntu', sans-serif;">
-			<h3>
-				<span style="color:#999">HELLO! </span>
-				<br/>
-				<span style="font-size: 60px; font-weight: medium;">I’m Yichen.</span>
- 				<div style="color:#999; margin-top:10px;"> 				
-					I'm a <span style="color:#e99898;">front-end developer</span>.
-				 </div>
-			</h3>
-		</div>
-	</div>
 
-	<div class="container project animated animatedFadeInUp fadeInUp mb-5">
+	<div class="project animated animatedFadeInUp fadeInUp mb-5">
 		<div class="row mt-2">
-			<div class="col-12 col-lg-6 containeru mt-2">
+			<div class="col-12 col-lg-4 containeru mt-2">
 				<a class="link" href="project/dwave.html">
-					<div class=" workdetail imageu" style="background-image: url(images/dwavep.jpg);">
+					<div class=" workdetail imageu" style="background-image: url(images/dwave.jpg);">
 					</div>
-					<div class="overlay color5">
+					<div class="overlay">
 						<div class="textu">
-							<h2>Dwave</h2>
-							<p>Company Website</p>
+							<p>Dwave Website</p>
 						</div>
 					</div>
 				</a>
 			</div>
-			<div class="col-12 col-lg-6 containeru mt-2">
+			<div class="col-12 col-lg-4 containeru mt-2">
 				<a class="link" href="project/svs.html">
 					<div class=" workdetail imageu" style="background-image: url(images/svs.jpg);"></div>
-					<div class="overlay color6">
+					<div class="overlay">
 						<div class="textu">
-							<h2>Dwave</h2>
 							<p>Sovia</p>
 						</div>
 					</div>
 
 				</a>
 			</div>
-		</div>
-		<div class="row mt-4">
-			<div class="col-12 col-lg-6 containeru mt-2">
+			<div class="col-12 col-lg-4 containeru mt-2">
 				<a class="link" href="project/speech_scoring.html">
 					<div class=" workdetail imageu" style="background-image: url(images/mir.jpg);">
 					</div>
-					<div class="overlay color5">
+					<div class="overlay">
 						<div class="textu">
-							<h2>Dwave</h2>
 							<p>Speech Scoring</p>
 						</div>
 					</div>
 
 				</a>
 			</div>
-			<!-- <div class="col-12 col-lg-6 containeru mt-2">
-				<a class="link" href="project/record.html">
-					<div class=" workdetail imageu" style="background-image: url(images/record.jpg);"></div>
-					<div class="overlay color5">
-						<div class="textu">
-							<h2>Dwave</h2>
-							<p>Record monitoring system</p>
-						</div>
-					</div>
-
-				</a>
-			</div> -->
-			<div class="col-12 col-lg-6 containeru mt-2">
+		</div>
+		<div class="row mt-4">
+			<div class="col-12 col-lg-4 containeru mt-2">
 				<a class="link" href="project/minisite.html">
 					<div class=" workdetail imageu" style="background-image: url(images/Maciaso.jpg);">
 					</div>
-					<div class="overlay color3">
+					<div class="overlay">
 						<div class="textu">
-							<h2>A.S.O</h2>
-							<p> Mini-site design</p>
+							<p>A.S.O Mini-site design</p>
 						</div>
 					</div>
 
 				</a>
 			</div>
-		</div>
-		<div class="row mt-4">
-			<div class="col-12 col-lg-6 containeru mt-2">
+			<div class="col-12 col-lg-4 containeru mt-2">
 				<a class="link" href="project/funnow.html">
 					<div class=" workdetail imageu " style="background-image: url(images/funnowclay-out.jpg);"></div>
-					<div class="overlay color1">
+					<div class="overlay">
 						<div class="textu">
-							<h2>FunNow</h2>
-							<p> Mobile Website Redesign</p>
+							<p>FunNow Mobile Website Redesign</p>
 						</div>
 					</div>
 
 				</a>
 			</div>
-			<div class="col-12 col-lg-6 containeru mt-2">
+			<div class="col-12 col-lg-4 containeru mt-2">
 				<a class="link" href="project/littleaso.html">
 					<div class=" workdetail imageu " style="background-image: url(images/Free-Tri-Fold.jpg);"></div>
-					<div class="overlay color2">
+					<div class="overlay">
 						<div class="textu" style="color: black;">
-							<h2>A.S.O</h2>
-							<p> Brand Mascot Redesign</p>
+							<p>A.S.O Brand Mascot Redesign</p>
 						</div>
 					</div>
 
